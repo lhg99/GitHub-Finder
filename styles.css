@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: lightblue;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+
+.header h1 {
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    border: 1px solid lightgray;
+    text-align: left;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.navbar h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.navbar h3 {
+    color: lightgray;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.navbar-input {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 900px;
+    height: 20px;
+}
+
+.profiles {
+    display: flex;
+    border: 1px solid lightgray;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.profile-btn {
+    display: flex;
+    width: 220px;
+    font-size: 15px;
+    background-color: lightblue;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.details {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 700px;
+}
+
+.detail-info {
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.detail-info p {
+    margin-left: 10px;
+}
+
+.repos h2 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.repo {
+    display: flex;
+    border: 1px solid lightgray;
+    margin: 20px 20px;
+    font-size: 20px;
+    color: #0000f8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#repo-span {
+    margin-right: 10px;
+}
+
+.repo p {
+    margin-left: 20px;
+}
+
+.footer p {
+    margin-left: 20px;
+    text-align: center;
+}
