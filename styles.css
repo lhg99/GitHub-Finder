@@ -43,10 +43,12 @@
 }
 
 .profiles {
+    position: relative;
     display: flex;
     border: 1px solid lightgray;
     margin: 20px 20px;
     align-items: center;
+    height: 300px;
 }
 
 .profile-img {
@@ -87,6 +89,23 @@
 
 .detail-info p {
     margin-left: 10px;
+}
+
+.grass {
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.grass p {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grass img {
+    margin-left: 20px;
 }
 
 .repos h2 {

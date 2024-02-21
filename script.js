@@ -1,5 +1,6 @@
 const username = document.getElementById('username');
 const profileContents = document.getElementById('profiles');
+const grassContents = document.getElementById('grass');
 const repoContents = document.getElementById('repos');
 
 class User {
@@ -33,6 +34,12 @@ class User {
                     <p>Location: ${userJson.location}</p><hr>
                     <p>Member Since: ${userJson.created_at}</p>
                 </div>
+            </div>`;
+
+            grassContents.innerHTML = `
+            <div class="grass">
+                <p>contributions in last year</p>
+                <img src="https://ghchart.rshah.org/${name}" alt="contributions-graph">
             </div>`;
 
             repoJson.forEach(repo => {
